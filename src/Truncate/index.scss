@@ -1,0 +1,17 @@
+.Truncate {
+  position: relative;
+  .truncate-content {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .truncate-btn {
+    z-index: 1;
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    color: #3658ff;
+    cursor: pointer;
+  }
+}
